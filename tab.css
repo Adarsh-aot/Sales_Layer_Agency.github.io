@@ -85,7 +85,7 @@ padding-bottom:100px
 
     .detail-img_img
 {
-    width: 500px;
+    width:500px;
     height: 500px;
     gap: 0px;
     opacity: 0px;
@@ -100,6 +100,9 @@ text-align: left;
 
 }
 
+.footer-frame{
+    gap: 0px; 
+}
 .detail-h1{
     font-family: Poppins;
 font-size: 20px;
@@ -116,6 +119,7 @@ text-align: left;
 
 .pricing{
     margin:64px 32px 64px 32px;
+    width: 680px;
 }
 
 .footer-li{

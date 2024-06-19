@@ -7,7 +7,10 @@
         opacity: 0px;
 
     }
-
+.nav-container{
+    max-width:368px;
+    gap:100px;
+}
 
     .drod{
         display: block;
@@ -172,5 +175,13 @@ opacity: 0px;
     body{
         margin:0px;
         padding:0px;
+    }
+
+    .pricing{
+        width: 300px;.nav-container{
+            max-width:368px;
+            gap:100px;
+        }
+        max-width:343px;
     }
 }

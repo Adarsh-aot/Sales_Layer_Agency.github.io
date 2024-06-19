@@ -1,0 +1,176 @@
+@media only screen and (max-width: 376px) {
+    
+    .version  {
+        width: 300px;
+        height: 300px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+
+
+    .drod{
+        display: block;
+    }
+
+    .deti{
+        display: none;
+    }
+
+    .clol{
+        display: none;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .line:checked ~ .deti{
+        display: block;
+    }
+
+    .line:checked ~ .clol{
+        display: block;
+    }
+
+    .line:checked ~ .open{
+        display: none;
+    }
+
+    
+
+
+    .sku_img{
+        width: 300px;
+        height: 300px;
+        gap: 16px;
+        opacity: 0px;
+
+    }
+
+
+    .sku-h1{
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: left;
+        height: 44px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+    .img-vector{
+        margin-top:50px;
+        width: 300px;
+        height: 12px;
+        gap: 0px;
+        border: 2px 0px 0px 0px;
+        opacity: 0px;
+
+    }
+
+
+    .about-us{
+        margin-top:100px;
+    }
+
+
+
+    
+    .about-h5{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+
+    }
+
+    .detail{
+        flex-direction: column;
+        width: Fill (343px)px;
+        height: Hug (1,199px)px;
+        gap: 48px;
+        opacity: 0px;
+
+
+    }
+    .detail-cemtent{
+        width: Fill (680px)px;
+height: Hug (428px)px;
+gap: 48px;
+opacity: 0px;
+padding-bottom:100px;
+grid-template-columns: repeat(1, 1fr);
+
+    }
+    .detail-img{
+        width: 343px;
+height: 343px;
+gap: 0px;
+opacity: 0px;
+
+    }
+
+    .detail-img_img{
+        width: 300px;
+        height: 300px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+    .det-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .det-box-content{
+        width: Fill (343px)px;
+height: Hug (1,752px)px;
+gap: 32px;
+opacity: 0px;
+
+    }
+
+    .why-sku-managment{
+        padding:0px 10px 0px 10px;
+    }
+
+    .developer{
+        width:300px;
+    }
+
+    .pricing{
+        margin-top:200px;
+    }
+
+    .footer-frame{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .content-icon{
+        margin-top:30px;
+    }
+
+    .nav-list{
+        padding-left:0px;
+        margin-left:0px;
+    }
+
+
+    .nav-stat{
+        padding-left:0px;
+    }
+
+    .bg-green{
+        margin:0px;
+        padding:0px;
+    }
+
+    body{
+        margin:0px;
+        padding:0px;
+    }
+}

@@ -1,0 +1,281 @@
+@media only screen and (max-width: 1024px) {
+  .top-section-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  .top-section {
+    max-width: 100%;
+  }
+  .top-section .navigation-items,
+  .top-section .access-btn,
+  .top-section .register-btn {
+    display: none;
+  }
+  .top-section .mobile-menu {
+    display: block;
+  }
+  .top-section .mobile-menu .mobile-nav-items {
+    display: none;
+  }
+  .top-section .menu-toggle {
+    display: none;
+  }
+  .top-section .menu-icon {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .top-section .close-btn {
+    display: none;
+  }
+  .top-section .menu-toggle:checked ~ .mobile-nav-items {
+    display: flex;
+  }
+  .top-section .close-icon:checked ~ .mobile-nav-items {
+    display: none;
+    transition: all 0.5s ease;
+  }
+  .top-section .menu-toggle:checked ~ .menu-icon {
+    display: none;
+    transition: all 0.5s ease;
+  }
+  .top-section .menu-toggle:checked ~ .close-icon {
+    display: block;
+    transition: all 0.5s;
+  }
+  .main-content-wrapper {
+    flex-direction: column-reverse;
+    max-width: 744px;
+    padding: 64px 32px;
+    gap: 32px;
+  }
+  .hero-image {
+    margin: auto;
+    max-width: 500px;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+  .main-content {
+    max-width: 680px;
+    gap: 48px;
+    align-items: center;
+  }
+  .content-text {
+    max-width: 680px;
+    align-items: center;
+    gap: 24px;
+  }
+  .content-text p {
+    text-align: center;
+  }
+  .cta-button {
+    max-width: 680px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .info-section-wrapper {
+    max-width: 744px;
+    padding: 64px 32px;
+    align-items: center;
+    gap: 48px;
+  }
+  .info-section-header {
+    max-width: 680px;
+  }
+  .info-section-header span {
+    max-width: 524px;
+    text-align: center;
+  }
+  .header-top {
+    max-width: 167px;
+  }
+  .info-content {
+    max-width: 680px;
+    gap: 48px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-image {
+    max-width: 500px;
+  }
+  .info-image img {
+    width: 100%;
+  }
+  .info-cards {
+    max-width: 680px;
+    gap: 48px;
+  }
+  .card-row {
+    max-width: 680px;
+  }
+  .info-card {
+    max-width: 324px;
+    gap: 20px;
+  }
+  .info-card .card-text {
+    max-width: 324px;
+  }
+  .highlights-wrapper {
+    max-width: 1024px;
+    margin: 0;
+    padding: 0;
+  }
+  .highlights-content {
+    max-width: 744px;
+    padding: 64px 32px;
+    gap: 64px;
+  }
+  .highlights-header {
+    max-width: 680px;
+  }
+  .highlights-header .header-top {
+    max-width: 680px;
+    gap: 12px;
+    text-align: center;
+  }
+  .highlights-header .header-top .header-title {
+    max-width: 680px;
+    display: flex;
+    gap: 0px;
+    text-align: center;
+  }
+  .highlights-header .header-description {
+    max-width: 680px;
+    text-align: center;
+  }
+  .highlights-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .highlight-card {
+    max-width: 324px;
+  }
+  .card-content {
+    max-width: 276px;
+  }
+  .card-content .card-title {
+    white-space: wrap;
+  }
+  .card-content .card-description {
+    max-width: 276px;
+  }
+  .analytics-section-wrapper {
+    padding: 64px 32px;
+    gap: 48px;
+    flex-direction: column-reverse;
+  }
+  .analytics-section-wrapper .analytics-content {
+    max-width: 680px;
+  }
+  .analytics-section-wrapper .analytics-content .section-title {
+    max-width: 680px;
+  }
+  .analytics-section-wrapper .analytics-content .section-description {
+    max-width: 680px;
+  }
+  .analytics-image {
+    max-width: 500px;
+  }
+  .analytics-image img {
+    width: 100%;
+  }
+  .cta-section-wrapper {
+    max-width: 744px;
+    padding: 64px 32px;
+  }
+  .cta-content {
+    max-width: 680px;
+    padding: 64px 32px;
+  }
+  .cta-text {
+    max-width: 616px;
+  }
+  .cta-text button {
+    width: 171px;
+  }
+  .footer-wrapper {
+    padding: 48px 32px 41px 32px;
+    gap: 48px;
+  }
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 48px;
+  }
+  .footer-top .footer-brand {
+    max-width: 265px;
+  }
+  .footer-top .footer-content {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    gap: 20px;
+  }
+  .footer-top .footer-content .footer-section {
+    width: auto;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+  }
+  .footer-top .footer-content .footer-section .section-title {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 680px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #d0d5dd;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  .footer-top .footer-content .footer-section .section-title img {
+    display: flex;
+    width: 24px;
+    gap: 0;
+  }
+  .footer-top .footer-content .footer-section .section-items {
+    display: none;
+    flex-direction: column;
+    max-width: -webkit-fill-available;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-top .footer-content .footer-section .section-items li {
+    max-width: 680px;
+    padding: 6px 12px;
+    gap: 10px;
+  }
+  .footer-top .footer-content .footer-section .section-items li:active {
+    background-color: #f0fdf9;
+    color: #107569;
+  }
+  .footer-top .footer-content .footer-section .accordion-toggle:checked ~ .section-items {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d0d5dd;
+  }
+  .footer-top .footer-content .footer-section .accordion-toggle:checked ~ .section-title {
+    border: none;
+    padding: 0;
+  }
+  .footer-top .footer-content .footer-section .accordion-toggle:checked ~ label img {
+    transform: rotate(180deg);
+  }
+}
+.footer-bottom {
+  gap: 16px;
+  padding: 0 0;
+}
+.footer-bottom .bottom-content {
+  padding: 32px 0px;
+  gap: 0px;
+}
+.footer-bottom .bottom-content .copyright span {
+  text-align: left;
+}
+.footer-bottom .bottom-content .social-icons .icon {
+  border: 2px solid rgba(0, 0, 0, 0.1215686275);
+}/*# sourceMappingURL=ipad.css.map */

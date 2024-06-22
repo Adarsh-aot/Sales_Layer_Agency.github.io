@@ -1,0 +1,224 @@
+@media only screen and (max-width: 431px) {
+  .top-section-wrapper {
+    justify-content: space-between;
+  }
+  .top-section-wrapper .top-section {
+    margin: 0;
+  }
+  .main-content-wrapper {
+    width: 375px;
+    padding: 64px 16px;
+  }
+  .hero-image {
+    width: 343px;
+  }
+  .main-content {
+    width: 343px;
+    gap: 16px;
+  }
+  .main-content .content-text span {
+    font-size: 2.25rem;
+    font-weight: 600;
+    white-space: nowrap;
+    line-height: 44px;
+    text-align: left;
+  }
+  .main-content .content-text img {
+    width: 343px;
+  }
+  .main-content .content-text p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+  }
+  .cta-button {
+    width: 343px;
+    padding: 12px 20px 12px 20px;
+    gap: 8px;
+    border-radius: 8px;
+  }
+  .info-section-wrapper {
+    width: 375px;
+    padding: 64px 16px;
+    gap: 48px;
+  }
+  .info-section-header {
+    width: 343px;
+    gap: 16px;
+  }
+  .info-section-header span {
+    width: 343px;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    line-height: 28px;
+    text-align: center;
+  }
+  .header-top {
+    width: 139px;
+    gap: 12px;
+  }
+  .header-top .header-subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+  }
+  .header-top .header-title {
+    width: 139px;
+    font-size: 1.875rem;
+    line-height: 38px;
+    text-align: center;
+  }
+  .info-content {
+    width: 343px;
+    gap: 48px;
+  }
+  .info-image {
+    width: 343px;
+  }
+  .info-cards {
+    width: 343px;
+  }
+  .card-row {
+    width: 343px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .card-text {
+    width: 343px;
+  }
+  .card-text span {
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: left;
+  }
+  .highlights-wrapper {
+    display: inline-flex;
+  }
+  .highlights-content {
+    width: 375px;
+    padding: 64px 16px;
+    gap: 64px;
+  }
+  .highlights-header {
+    width: 343px;
+    gap: 16px;
+  }
+  .highlights-header .header-top {
+    width: 343px;
+    gap: 12px;
+  }
+  .highlights-header .header-top .header-title {
+    width: 100%;
+    font-size: 1.875rem;
+    line-height: 38px;
+  }
+  .highlights-header .header-description {
+    font-size: 1.125rem;
+    line-height: 28px;
+  }
+  .highlights-grid {
+    grid-template-columns: 1fr;
+  }
+  .highlight-card {
+    width: 343px;
+  }
+  .card-content {
+    width: 295px;
+  }
+  .card-content .card-title {
+    font-size: 1.125rem;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  .card-content .card-description {
+    width: 295px;
+    gap: 0px;
+  }
+  .analytics-section-wrapper {
+    width: 375px;
+    padding: 64px 16px;
+  }
+  .analytics-section-wrapper .analytics-content {
+    width: 343px;
+    gap: 48px;
+  }
+  .analytics-section-wrapper .analytics-content .section-title {
+    width: 343px;
+    font-size: 1.875rem;
+    line-height: 38px;
+  }
+  .analytics-section-wrapper .analytics-content .section-description {
+    width: 343px;
+    font-size: 1.125rem;
+    line-height: 28px;
+    text-align: left;
+  }
+  .analytics-section-wrapper .analytics-image {
+    width: 343px;
+  }
+  .cta-section-wrapper {
+    padding: 32px 16px;
+    max-width: 480px;
+    width: 100%;
+  }
+  .cta-content {
+    gap: 64px;
+  }
+  .cta-text {
+    width: 279px;
+    gap: 32px;
+  }
+  .cta-text .cta-title {
+    font-size: 1.875rem;
+    line-height: 38px;
+  }
+  .cta-text .cta-subtitle {
+    font-size: 1.125rem;
+    line-height: 28px;
+    text-align: center;
+  }
+  .cta-text button {
+    max-width: 279px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  .footer-wrapper {
+    width: 375px;
+    padding: 48px 16px 0px 16px;
+    gap: 48px;
+  }
+  .footer-brand {
+    width: 214px;
+    gap: 10px;
+  }
+  .footer-brand img {
+    width: 42px;
+  }
+  .footer-brand span {
+    font-size: 1.875rem;
+  }
+  .footer-top {
+    width: 343px;
+  }
+  .footer-top .footer-content {
+    width: 343px;
+  }
+  .footer-top .footer-content .footer-section {
+    width: 343px;
+  }
+  .footer-top .footer-content .footer-section .section-title {
+    width: 343px;
+  }
+  .footer-bottom {
+    width: 343px;
+  }
+  .footer-bottom .bottom-content {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=mobile.css.map */

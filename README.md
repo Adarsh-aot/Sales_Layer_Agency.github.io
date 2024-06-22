@@ -10,7 +10,7 @@ This is a web project for Sales Layer, showcasing a responsive design with moder
 
 ## Hosted Link
 
-You can view the live project [here](http://your-hosted-link.com).
+You can view the live project [here](https://adarsh-aot.github.io/Sales_Layer_Agency.github.io/)
 
 ## Project Structure
 

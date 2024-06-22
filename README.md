@@ -33,9 +33,3 @@ The project includes multiple sections such as the top section with navigation, 
 - `scss/ipad.css`: Stylesheet for iPad-specific styles.
 - `scss/mobile.css`: Stylesheet for mobile-specific styles.
 - `images/`: Directory containing images used in the project.
-
-## Contact
-
-
-
-Project Link: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
